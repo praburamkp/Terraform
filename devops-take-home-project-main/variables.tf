@@ -38,14 +38,11 @@ variable "environment" {
 
 variable "public_subnets_cidr" {
     description = "Public CIDR ranges"
-    default = ["192.170.0.0/24","192.170.1.0/24","192.170.2.0/24"]
 }
 variable "private_subnets_cidr" {
     description = "Private CIDR ranges"
-    default = [ "192.170.3.0/24","192.170.4.0/24","192.170.5.0/24"]
 }
 
 variable "availability_zones" {
     description = "Availability Zones"
-    default = [ "us-east-1a","us-east-1b","us-east-1c"]
 }
